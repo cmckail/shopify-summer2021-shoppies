@@ -128,7 +128,7 @@ function App() {
   }
   function getSearchResults(term) {
     fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=bae5ff4b&s=${term}&r=json&type=movie`
+      `https://www.omdbapi.com/?i=tt3896198&apikey=bae5ff4b&s=${term}&r=json&type=movie`
     )
       .then((res) => res.json())
       .then(
